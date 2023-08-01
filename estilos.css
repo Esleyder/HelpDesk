@@ -1,0 +1,167 @@
+ /* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Banner */
+  
+  #banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  #banner h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  /* Servicios */
+  
+  #servicios {
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  .servicio {
+    margin-bottom: 30px;
+  }
+  
+  .servicio h3 {
+    margin: 0;
+  }
+  
+  /* Contacto */
+  
+  #contacto {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Pie de página */
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Estilos responsivos */
+  
+  @media only screen and (max-width: 768px) {
+    /* Ajustes para pantallas pequeñas */
+  
+    header {
+      padding: 10px;
+    }
+  
+    #banner {
+      padding: 50px;
+    }
+  
+    #banner h2 {
+      font-size: 24px;
+    }
+  
+    #servicios {
+      padding: 30px;
+    }
+  
+    #contacto {
+      padding: 30px;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Ajustes para pantallas móviles */
+  
+    #banner {
+      padding: 30px;
+    }
+  
+    #banner h2 {
+      font-size: 20px;
+    }
+  
+    .btn {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  
+    #servicios {
+      padding: 20px;
+    }
+  
+    #contacto {
+      padding: 20px;
+    }
+  
+    footer {
+      font-size: 12px;
+    }
+  }
+  
